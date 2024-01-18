@@ -1,0 +1,35 @@
+header{
+  background-color: rgb(255, 255, 255,0.1);
+  padding: 20px;
+
+  box-shadow: 0 5px inset;
+  /* height: 100vh; */
+}
+.banner-img{
+  background-image:url('himg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+ul,li{
+  list-style: none;
+}
+.input{
+  width: 60%;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+	padding:10px 20px;
+	margin-left: 10px;
+}
+input{
+  border:none!important;
+  background: transparent;
+}
+input:focus{
+  outline: none;
+}
+.card-img{
+  height: 250px;
+  width: 200px; 
+  
+}
